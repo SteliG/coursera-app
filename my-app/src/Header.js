@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import logoImage from './logo.svg';
+import logoImage from './logo.png';
 import './Header.css';
 import pages from './utils/pages';
 
@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <header>
       <nav className="container grid nav-bar">
-        <Link className="nav-bar-logo" to={pages.get('home').path}>
+        <Link className="nav-bar-logo">
           <img src={logoImage} alt="Little Lemon logo" />
         </Link>
         <button 
