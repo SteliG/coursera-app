@@ -161,6 +161,25 @@ button {
   cursor: pointer;
 }
 
+/* Form Validation Styles */
+.booking-form .error {
+  border: 2px solid #d32f2f !important;
+  background-color: #ffebee !important;
+}
+
+.booking-form .error:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(211, 47, 47, 0.2);
+}
+
+.error-message {
+  color: #d32f2f;
+  font-size: 14px;
+  margin-top: 4px;
+  display: block;
+  font-weight: 500;
+}
+
 .confirm {
   margin: 0 auto;
   max-width: 1000px;
