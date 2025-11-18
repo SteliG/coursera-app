@@ -10,40 +10,17 @@ const Footer = () => {
           <img src={logo} alt="Logo" />
           <p>A family restaurant, focused on traditional recipes served with a modern twist.</p>
         </div>
-        <div className='company-details'>
-          <div>
-            <h3>Important Links</h3>
-            <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/">About</a></li>
-              <li><a href="/">Menu</a></li>
-              <li><a href="/">Reservations</a></li>
-              <li><a href="/">Order Online</a></li>
-              <li><a href="/">Login</a></li>
-            </ul>
-          </div>
-          <div>
-            <h3>Contact</h3>
-            <ul>
-              <li>Address: <br/> 123 Towncity, USA</li>
-              <li>Phone: <br/> + 0123 456 789</li>
-              <li>Email: <br/> little@lemon.com</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Social Media Links</h3>
-            <ul>
-              <li><a href="/">Facebook</a></li>
-              <li><a href="/">Instagram</a></li>
-              <li><a href="/">Twitter</a></li>
-            </ul>
+        <div className='contact-info'>
+          <h3>Contact Us</h3>
+          <div className='contact-details'>
+            <p> 123 Main St, USA</p>
+            <p>+ 0000 0000 0000</p>
+            <p>info@lemonlemon.com</p>
           </div>
         </div>
       </section>
       <div className='copyright'>
-        <Link  target='_blank'>
-         All rights reserved
-        </Link>
+        <p> 2024 Little Lemon. All rights reserved.</p>
       </div>
     </footer>
   )

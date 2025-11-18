@@ -1,13 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import bannerImg from '../images/restaurantfood.jpg'
 
 const Banner = () => {
   return (
     <section className='Banner'>
       {/* Banner text */}
       <div>
-        <img src={bannerImg} alt="Banner Img" className='banner-img-mobile' />
         <p>We are a family owned Mediterranean restaurant, <br className='mobile-hidden'/>focused on traditional recipes served with a modern twist.</p>
         <Link to="/booking">
           <button aria-label='On Click'>Reserve a table</button>
